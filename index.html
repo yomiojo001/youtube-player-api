@@ -14,24 +14,41 @@
 
 <body>
     <div class="container video-player">
-        <h1 class="display-1">My Video Player</h1>
-        <div class="search">
-            <input type="text" value="planes">
-            <button type="button" class="btn btn-primary">Submit</button>
+        <h1 class="display-1 text-center text-warning">VidX</h1>
+        <div class="search mt-5 mb-3">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <input type="text" class="form-control" value="planes">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <button type="button" class="btn btn-danger">Submit</button>
+                            </div>
+                        </div>                
+                    </div>
+                </div>
+            </div>
+
+            
         </div>
         <div class="container">
             <div class="row">
-                <div class="bg-primary video-play embed-responsive embed-responsive-21by9"></div>
+                <div class="bg-primary video-play embed-responsive embed-responsive-21by9 border border-warning rounded-lg"></div>
             </div>
         </div>
-        <div class="container">
+        <div class="container my-5 text-center">
             <div class="row">
-                <div class="suggest-list">
+                <div class="suggest-list rounded-lg">
 
                 </div>
             </div>
         </div>
     </div>
+    <footer class="text-center text-warning" >Copyright &copy2019, devmike</footer>
 </body>
 
 </html>
